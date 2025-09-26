@@ -114,6 +114,93 @@ Controlador del **menú principal**.
 
 👉 Es el **puente entre el menú y el inicio del juego**.
 
+# 📘 RegisterScreen en Unity
+
+Este script controla la **pantalla de registro de usuario** en Unity.  
+Incluye validación de **nombre**, **correo**, manejo de **fotos (galería/cámara)** y transición entre **paneles de UI**.
+
+---
+
+## 🔹 Variables expuestas al Inspector
+
+### 📥 Entradas de texto
+- Nombre del jugador.  
+- Correo electrónico.
+
+### 🖼️ Foto
+- Vista previa de la foto seleccionada/tomada.
+
+### 📢 Mensajes
+- Texto donde se muestran mensajes.  
+- Colores para mensajes de éxito, error y advertencia.
+
+### 📂 Paneles de UI
+- Panel de registro.  
+- Panel posterior al registro.
+
+### 📝 Mostrar nombre
+- Texto para mostrar el nombre del jugador guardado.
+
+---
+
+## ⚙️ Variables internas
+
+- Foto seleccionada.  
+- Cámara en PC.  
+- Bandera para indicar si el jugador ya se registró.
+
+---
+
+## 🚀 Registro (OnRegister)
+
+1. Lee el nombre y correo del jugador.  
+2. Valida:  
+   - Nombre no vacío.  
+   - Al menos 3 caracteres.  
+   - Solo letras y números.  
+   - Que no esté repetido.  
+   - Correo válido.  
+   - Foto seleccionada.  
+3. Si todo está bien:  
+   - Muestra mensaje de éxito.  
+   - Guarda el nombre en PlayerPrefs.  
+   - Actualiza el texto con el nombre del jugador.
+
+---
+
+## ⏭️ Continuar (OnContinue)
+
+- Si no está registrado → muestra advertencia.  
+- Si está registrado:  
+  - Oculta el panel de registro.  
+  - Activa el panel de continuación.  
+  - Recupera y muestra el nombre desde PlayerPrefs.
+
+---
+
+## 🔍 Funciones auxiliares
+
+- Validar que el nombre solo tenga letras y números.  
+- Verificar si el nombre ya está guardado en PlayerPrefs.  
+- Validar el formato del correo electrónico.  
+- Mostrar mensajes con texto y color en la UI.
+
+---
+
+## 📷 Fotos
+
+### Desde galería
+- Disponible en Android/iOS con NativeGallery.  
+- Permite seleccionar una foto de la galería y mostrarla en la vista previa.
+
+### Desde cámara
+- En Android/iOS usa NativeCamera.  
+- En PC:  
+  - Activa la cámara la primera vez.  
+  - Captura foto la segunda vez.  
+
+
+
 ---
 
 👉 Ejemplo de visualización:  
