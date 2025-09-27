@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\projectosunity\\TriviaGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5E3D28D0-6A2D-BE11-5DC4-5D7A25273C4C}|Assembly-CSharp.csproj|c:\\projectosunity\\triviagame\\assets\\scripts\\manager\\menuuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E3D28D0-6A2D-BE11-5DC4-5D7A25273C4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\menuuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5E3D28D0-6A2D-BE11-5DC4-5D7A25273C4C}|Assembly-CSharp.csproj|C:\\projectosunity\\TriviaGame\\assets\\scripts\\trivia\\triviacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E3D28D0-6A2D-BE11-5DC4-5D7A25273C4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trivia\\triviacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E3D28D0-6A2D-BE11-5DC4-5D7A25273C4C}|Assembly-CSharp.csproj|c:\\projectosunity\\triviagame\\assets\\scripts\\trivia\\trivialoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E3D28D0-6A2D-BE11-5DC4-5D7A25273C4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trivia\\trivialoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E3D28D0-6A2D-BE11-5DC4-5D7A25273C4C}|Assembly-CSharp.csproj|c:\\projectosunity\\triviagame\\assets\\scripts\\manager\\gamemodemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E3D28D0-6A2D-BE11-5DC4-5D7A25273C4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\gamemodemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E3D28D0-6A2D-BE11-5DC4-5D7A25273C4C}|Assembly-CSharp.csproj|c:\\projectosunity\\triviagame\\assets\\scripts\\puntaje\\gameoverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E3D28D0-6A2D-BE11-5DC4-5D7A25273C4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puntaje\\gameoverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E3D28D0-6A2D-BE11-5DC4-5D7A25273C4C}|Assembly-CSharp.csproj|c:\\projectosunity\\triviagame\\assets\\scripts\\puntaje\\scoreui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E3D28D0-6A2D-BE11-5DC4-5D7A25273C4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puntaje\\scoreui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E3D28D0-6A2D-BE11-5DC4-5D7A25273C4C}|Assembly-CSharp.csproj|c:\\projectosunity\\triviagame\\assets\\scripts\\puntaje\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E3D28D0-6A2D-BE11-5DC4-5D7A25273C4C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puntaje\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +42,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TriviaLoader.cs",
-              "DocumentMoniker": "C:\\projectosunity\\TriviaGame\\Assets\\Scripts\\Trivia\\TriviaLoader.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Trivia\\TriviaLoader.cs",
-              "ToolTip": "C:\\projectosunity\\TriviaGame\\Assets\\Scripts\\Trivia\\TriviaLoader.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Trivia\\TriviaLoader.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwB8AAABaAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MenuUIController.cs",
+              "DocumentMoniker": "C:\\projectosunity\\TriviaGame\\Assets\\Scripts\\Manager\\MenuUIController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\MenuUIController.cs",
+              "ToolTip": "C:\\projectosunity\\TriviaGame\\Assets\\Scripts\\Manager\\MenuUIController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\MenuUIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T16:21:32.072Z",
+              "WhenOpened": "2025-09-26T22:58:51.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "GameModeManager.cs",
+              "DocumentMoniker": "C:\\projectosunity\\TriviaGame\\Assets\\Scripts\\Manager\\GameModeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\GameModeManager.cs",
+              "ToolTip": "C:\\projectosunity\\TriviaGame\\Assets\\Scripts\\Manager\\GameModeManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\GameModeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T22:57:28.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameOverUI.cs",
+              "DocumentMoniker": "C:\\projectosunity\\TriviaGame\\Assets\\Scripts\\Puntaje\\GameOverUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Puntaje\\GameOverUI.cs",
+              "ToolTip": "C:\\projectosunity\\TriviaGame\\Assets\\Scripts\\Puntaje\\GameOverUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Puntaje\\GameOverUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T22:43:29.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "C:\\projectosunity\\TriviaGame\\Assets\\Scripts\\Puntaje\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Puntaje\\ScoreManager.cs",
+              "ToolTip": "C:\\projectosunity\\TriviaGame\\Assets\\Scripts\\Puntaje\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Puntaje\\ScoreManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T22:43:26.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScoreUi.cs",
+              "DocumentMoniker": "C:\\projectosunity\\TriviaGame\\Assets\\Scripts\\Puntaje\\ScoreUi.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Puntaje\\ScoreUi.cs",
+              "ToolTip": "C:\\projectosunity\\TriviaGame\\Assets\\Scripts\\Puntaje\\ScoreUi.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Puntaje\\ScoreUi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T22:43:24.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TriviaController.cs",
               "DocumentMoniker": "C:\\projectosunity\\TriviaGame\\Assets\\Scripts\\Trivia\\TriviaController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Trivia\\TriviaController.cs",
               "ToolTip": "C:\\projectosunity\\TriviaGame\\Assets\\Scripts\\Trivia\\TriviaController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Trivia\\TriviaController.cs",
-              "ViewState": "AgIAAMcAAAAAAAAAAAA/wNUAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T01:29:47.795Z",
               "EditorCaption": ""
